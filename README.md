@@ -10,7 +10,7 @@ A Very Good Project created by Very Good CLI.
 
 ---
 
-## Getting Started 🚀
+## 🛠️ Getting Started
 
 This project contains 3 flavors:
 
@@ -31,16 +31,36 @@ $ flutter run --flavor staging --target lib/main_staging.dart
 $ flutter run --flavor production --target lib/main_production.dart
 ```
 
-_\*Kryptie works on iOS, Android, Web, and Windows._
+_\*Kryptie works on iOS and  Android._
 
 ---
 
-## Running Tests 🧪
+## 🌟 Features
+
+- 🔐 User authentication
+- 💰 Add/remove cryptocurrencies to/from portfolio
+- 🧮 Specify the amount owned for each cryptocurrency
+- 📈 Real-time price and historical data integration
+- 💼 Portfolio overview (list, total value, percentage change)
+- 🥧 Pie chart for portfolio distribution
+- 📱 Offline storage for favorite cryptocurrencies
+
+---
+
+## 📱  The App
+
+![Auth View](assets/github/photo_1_2024-10-24_21-53-41.jpg)
+![Home View](assets/github/photo_2_2024-10-24_21-53-41.jpg)
+![Crytpo View](assets/github/photo_3_2024-10-24_21-53-41.jpg)
+
+---
+
+## 🧪 Running Tests
 
 To run all unit and widget tests use the following command:
 
 ```sh
-$ flutter test --coverage --test-randomize-ordering-seed random
+flutter test --coverage --test-randomize-ordering-seed random
 ```
 
 To view the generated coverage report you can use [lcov](https://github.com/linux-test-project/lcov).
@@ -55,7 +75,7 @@ $ open coverage/index.html
 
 ---
 
-## Working with Translations 🌐
+## 🌐 Working with Translations
 
 This project relies on [flutter_localizations][flutter_localizations_link] and follows the [official internationalization guide for Flutter][internationalization_link].
 
@@ -109,10 +129,10 @@ Update the `CFBundleLocalizations` array in the `Info.plist` at `ios/Runner/Info
     ...
 
     <key>CFBundleLocalizations</key>
-	<array>
-		<string>en</string>
-		<string>es</string>
-	</array>
+ <array>
+  <string>en</string>
+  <string>es</string>
+ </array>
 
     ...
 ```
