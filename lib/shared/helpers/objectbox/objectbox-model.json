@@ -1,0 +1,186 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:5524403018220642864",
+      "lastPropertyId": "25:2360677884325964770",
+      "name": "CryptoData",
+      "properties": [
+        {
+          "id": "1:4079934346307168010",
+          "name": "objId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1544243325995123335",
+          "name": "id",
+          "type": 9
+        },
+        {
+          "id": "3:9161050265883297686",
+          "name": "symbol",
+          "type": 9
+        },
+        {
+          "id": "4:6699043373986751158",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:4215954729532512626",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "6:3257372490924663958",
+          "name": "currentPrice",
+          "type": 8
+        },
+        {
+          "id": "7:512542760279914273",
+          "name": "marketCap",
+          "type": 6
+        },
+        {
+          "id": "8:4497709734374920102",
+          "name": "marketCapRank",
+          "type": 6
+        },
+        {
+          "id": "9:1312110397080551256",
+          "name": "fullyDilutedValuation",
+          "type": 6
+        },
+        {
+          "id": "10:5804087020289993006",
+          "name": "totalVolume",
+          "type": 6
+        },
+        {
+          "id": "11:7397942326566247546",
+          "name": "high24H",
+          "type": 8
+        },
+        {
+          "id": "12:1542629444053916795",
+          "name": "low24H",
+          "type": 8
+        },
+        {
+          "id": "13:5157688691486294188",
+          "name": "priceChange24H",
+          "type": 8
+        },
+        {
+          "id": "14:2161571951049122423",
+          "name": "priceChangePercentage24H",
+          "type": 8
+        },
+        {
+          "id": "15:8990519479270663042",
+          "name": "marketCapChange24H",
+          "type": 8
+        },
+        {
+          "id": "16:114418054227239632",
+          "name": "marketCapChangePercentage24H",
+          "type": 8
+        },
+        {
+          "id": "17:1941616608861178392",
+          "name": "circulatingSupply",
+          "type": 8
+        },
+        {
+          "id": "18:5526867248949746555",
+          "name": "totalSupply",
+          "type": 8
+        },
+        {
+          "id": "19:5787460623314984767",
+          "name": "ath",
+          "type": 8
+        },
+        {
+          "id": "20:8230275813210633903",
+          "name": "athChangePercentage",
+          "type": 8
+        },
+        {
+          "id": "21:2608453486128680060",
+          "name": "athDate",
+          "type": 10
+        },
+        {
+          "id": "22:7638479544606195612",
+          "name": "atl",
+          "type": 8
+        },
+        {
+          "id": "23:8932767248378268995",
+          "name": "atlChangePercentage",
+          "type": 8
+        },
+        {
+          "id": "24:3136210473825342886",
+          "name": "atlDate",
+          "type": 10
+        },
+        {
+          "id": "25:2360677884325964770",
+          "name": "lastUpdated",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:1013628756137112695",
+      "lastPropertyId": "5:5866894387907582329",
+      "name": "CryptoPortfolio",
+      "properties": [
+        {
+          "id": "1:4556308639079487076",
+          "name": "objId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:207896151350941653",
+          "name": "cryptoId",
+          "type": 9
+        },
+        {
+          "id": "3:4890207340151610366",
+          "name": "amount",
+          "type": 8
+        },
+        {
+          "id": "4:1831509640128301208",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "5:5866894387907582329",
+          "name": "symbol",
+          "type": 9
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:1013628756137112695",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

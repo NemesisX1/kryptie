@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "316375786292",
+    "project_id": "kryptie-d076a",
+    "storage_bucket": "kryptie-d076a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316375786292:android:77a718c6da03e839a1bb61",
+        "android_client_info": {
+          "package_name": "com.kryptie.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316375786292-uqd5jtae0tdfmpjbdtmf4kio1rik8i2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKwKCOTYHfFT7O06-Uhy0qugrupc3XXKI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316375786292-uqd5jtae0tdfmpjbdtmf4kio1rik8i2s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "316375786292-gai1orsp4mc1qpuqroru40f7gfosoc96.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kryptie.dev"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
