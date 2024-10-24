@@ -49,9 +49,11 @@ _\*Kryptie works on iOS and  Android._
 
 ## 📱  The App
 
-![Auth View](assets/github/photo_1_2024-10-24_21-53-41.jpg)
-![Home View](assets/github/photo_2_2024-10-24_21-53-41.jpg)
-![Crytpo View](assets/github/photo_3_2024-10-24_21-53-41.jpg)
+| Content | Example |
+| --- | --- |
+| ![Auth View](assets/github/photo_1_2024-10-24_21-53-41.jpg)  |  ![Home View](assets/github/photo_2_2024-10-24_21-53-41.jpg) |
+| ![Crytpo View](assets/github/photo_3_2024-10-24_21-53-41.jpg) | ![Crytpo View](assets/github/photo_6_2024-10-24_21-53-41.jpg) |
+| ![Crytpo View](assets/github/photo_5_2024-10-24_21-53-41.jpg) | |
 
 ---
 
